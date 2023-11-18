@@ -101,11 +101,32 @@
 #     print(multi * num)
 #     num -= 1
 
-number = int(input("Enter the number of multiplication table: "))
-limit = int(input("Enter the limit"))
-a = 1
-# for limit in range(1,limit+1):
-#     print(limit,'X',number,'=',number * limit)
-for x in range(1,limit + 1, number):
-    print(a,'X',number,'=',x)
-    a += 1
+# number = int(input("Enter the number of multiplication table: "))
+# limit = int(input("Enter the limit"))
+# a = 1
+# # for limit in range(1,limit+1):
+# #     print(limit,'X',number,'=',number * limit)
+# for x in range(1,limit + 1, number):
+#     print(a,'X',number,'=',x)
+#     a += 1
+
+# print("Twinkle, twinkle, little start,\n\t How I wonder what you are ! \n\t\t Up above the world so high,\n\t\t Like a diamond in the sky.\n Twinkle, twinkle, little start,\n\t How I wonder what you are!")
+
+# import platform
+# print(platform.python_version())
+
+# import datetime
+
+# print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+
+radius = float(input("Enter the radius of the circle: "))
+
+radius_sq = radius * radius
+print(radius_sq)
+import math
+
+pie = math.pi
+
+area = pie * radius_sq
+
+print("The are of the circle is: " + str(area))
