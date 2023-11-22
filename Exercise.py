@@ -319,3 +319,8 @@
 # # print(str(x),"+",str(y)+"^"+"2"+"="+str(result))
 
 # print("({} + {})^2) = {}".format(x,y,result))
+
+import os.path
+
+print(os.path.isfile('sample.py'))
+print(os.path.isfile('name.py'))
