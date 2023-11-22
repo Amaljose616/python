@@ -457,11 +457,29 @@
 # print(fact)
 
 
-def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return n * factorial(n -1)
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n * factorial(n -1)
     
-result = factorial(5)
-print(result)
+# result = factorial(5)
+# print(result)
+
+# class Person:
+#     def __init__(self, name, age):
+
+#     pass
+
+# p = Person()
+# print(p)
+
+class Car:
+    def __init__(self):
+        self.wheels = 4
+        self.seats = 5
+    def drive(self):
+        print("Driving a car....")
+
+myCar = Car()
+print(myCar.drive())
