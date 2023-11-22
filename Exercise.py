@@ -320,7 +320,148 @@
 
 # print("({} + {})^2) = {}".format(x,y,result))
 
-import os.path
+# import os.path
 
-print(os.path.isfile('sample.py'))
-print(os.path.isfile('name.py'))
+# print(os.path.isfile('sample.py'))
+# print(os.path.isfile('name.py'))
+
+# print("hello world")
+
+# age, mark, clas = 20,21,21
+# sentence = "my name is avi"
+
+# print(sentence + str(age))
+
+# name, age = "avi" , 22
+# print(name)
+
+# age1 =12 
+# age2 = 18
+
+# print(age1 * age2)
+
+# sent = "today is a beautiful day"
+# age = " and also a nice day"
+
+# print(sent[0:5] + age)
+
+# name = "jake"
+# sentence = "%s %d is 15 years old"
+
+# print(sentence % (name,67))
+
+# name = "Amal"
+
+# print(f"hello,{name}")
+
+# x = 10 
+# y = 20
+
+# print(f"The sum of x + y is {x+y}")
+
+# print("hello \n" * 10)
+
+# shopping_list = ["apple", "orange","bananas","cheese"]
+
+# print(shopping_list[0])
+
+# shopping_list.append("kiwi")
+
+# shopping_list[0] = "cherries"
+# del shopping_list[1]
+# print(len(shopping_list))
+# shopping_list2 = ["bread","jam","pb"]
+# print(shopping_list+shopping_list2)
+# print(shopping_list)
+
+# list_num = [1,20,59,5,32]
+
+# print(max(list_num))
+# print(min(list_num))
+
+# print(max(shopping_list))
+
+# student = {"bob":12,"rachel":13,"emily":15}
+# print(student["bob"])
+
+# tuple = ("oranges","apples","bananas")
+# print(tuple[0])
+# tuple_2 = (12,13)
+# tuple_3 = tuple + tuple_2
+# print(tuple_3)
+
+# if 5 > 3:
+#     print("hello")
+
+# list1 = ['apples','banans',"cherries"]
+# tup1 = (2,6,23)
+
+# for items in list1 :
+#     print(items)
+
+# for i in range (1,11,2):
+#     print(i)
+
+# c = 0
+
+# while c < 5:
+#     c += 1
+#     if c == 3:
+#         pass
+#     print(c)
+
+# try:
+#     if c == 0:
+#         print("hello")
+# except:
+#     print("An error was found")
+
+# def hello():
+#     print("hello")
+
+# hello()
+
+# def greeting(name):
+#     print(f"Hi {name} !")
+
+# greeting("amal")
+
+# def add(num1,num2):
+#     return num1 + num2
+
+# sum = add(12,34)
+
+# print(sum)
+
+# num = abs(-23)
+# print(num)
+
+# print(bool(0))
+
+# print(dir("hello"))
+
+# name = "amal"
+
+# print(name.upper)
+# number = 5
+# fact = 1
+
+# # def calculate_factorial(number):
+# for i in range(1,number + 1):
+#         fact = fact * i
+
+        
+#     # return fact
+
+# # result = calculate_factorial(12)
+# print(fact)
+
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n -1)
+    
+result = factorial(5)
+print(result)
