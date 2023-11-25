@@ -474,12 +474,43 @@
 # p = Person()
 # print(p)
 
-class Car:
-    def __init__(self):
-        self.wheels = 4
-        self.seats = 5
-    def drive(self):
-        print("Driving a car....")
+# class Car:
+#     def __init__(self):
+#         self.wheels = 4
+#         self.seats = 5
+#     def drive(self):
+#         print("Driving a car....")
 
-myCar = Car()
-print(myCar.drive())
+# myCar = Car()
+# print(myCar.drive())
+
+#newtext
+
+# import struct 
+# print(struct.calcsize("p") * 8)
+
+# import platform
+# import os
+# print(os.name)
+# print(platform.system())
+# print(platform.release())
+
+# import site
+# print(site.getsitepackages())
+
+# from subprocess import call
+
+# call(["top"])
+
+# n = "24.2458"
+# print(float(n))
+# print(int(float(n)))
+
+# from subprocess import call
+# call(["ls"])
+
+# from os import listdir
+# from os.path import isfile,join
+
+# files_list = [f for f in listdir('/home/amal/EPG')]
+
